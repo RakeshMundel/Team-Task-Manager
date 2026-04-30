@@ -1,0 +1,20 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "Project and task management app with role-based access control.",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "npm --workspace backend start",
+    "dev": "npm --workspace backend run dev",
+    "migrate": "npm --workspace backend run migrate",
+    "frontend": "npm --workspace frontend run dev",
+    "build": "npm --workspace frontend run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
