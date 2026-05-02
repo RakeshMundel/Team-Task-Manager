@@ -2,6 +2,10 @@
 
 A MERN-style team task manager with a React frontend, Express REST API, MySQL database, JWT authentication, projects, members, task assignment, dashboards, and role-based access control.
 
+## Live Demo
+
+[Open the deployed app on Railway](https://task-manager-app-production-1be3.up.railway.app)
+
 ## Stack
 
 - React + Vite frontend in `frontend/`
